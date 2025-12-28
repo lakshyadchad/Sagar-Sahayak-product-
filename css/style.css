@@ -1,0 +1,65 @@
+/* 1. MAIN BACKGROUND - Light */
+.stApp {
+    background-color: #FAFEFE; 
+}
+
+/* 2. SIDEBAR BACKGROUND - Light Blue with Black Border */
+section[data-testid="stSidebar"] {
+    background-color: #E2FDFF;
+    border-right: 2px solid #000000;
+}
+
+/* Sidebar Text Colors */
+section[data-testid="stSidebar"] h1, 
+section[data-testid="stSidebar"] h2, 
+section[data-testid="stSidebar"] h3, 
+section[data-testid="stSidebar"] label, 
+section[data-testid="stSidebar"] .stMarkdown {
+    color: #000000 !important;
+}
+
+/* 3. CUSTOM METRIC BOXES (Grey Transparent) */
+.metric-card {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.metric-label {
+    color: #d1d5db;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.metric-value {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: 'Courier New', monospace;
+}
+
+/* 4. HEADER STYLING */
+.main-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+.sub-title {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+/* Remove default top padding */
+.block-container {
+    padding-top: 2rem;
+}
