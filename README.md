@@ -3,6 +3,9 @@
 <div align="center">
 
 ![DRDO Logo](./assets/drdo_logo.png)
+![SIH Logo](./assets/sih_logo.png)
+
+</div>
 
 **Enhancing Underwater Visibility for Defense & Research Operations**
 
